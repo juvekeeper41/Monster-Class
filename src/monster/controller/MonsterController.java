@@ -22,5 +22,12 @@ public class MonsterController
 	public void start()
 	{
 		System.out.println("Here is my monster: " + firstMonster);
+		System.out.println("My monster has " + firstMonster.getAntennaCount() + " antennas");
+		System.out.println(firstMonster.getEyeCount() + " eyes");
+		System.out.println("Does not have a belly button");
+		System.out.println(firstMonster.getArmCount() + " arms");
+		System.out.println("and " + firstMonster.getNoseCount() + " nose");
 	}
+	
 }
+

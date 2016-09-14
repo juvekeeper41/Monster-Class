@@ -42,4 +42,35 @@ public class MarshmallowMonster
 			
 			return description;
 		}
+		
+		public String getName()
+		{
+			return name;
+		}
+		
+		public int getEyeCount()
+		{
+			return eyeCount;
+		}
+		
+		public double getAntennaCount()
+		{
+			return antennaCount;
+		}
+		
+		public boolean getBellyButton()
+		{
+			return hasBellyButton;
+		}
+		
+		public int getArmCount()
+		{
+			return armCount;
+		}
+		
+		public int getNoseCount()
+		{
+			return noseCount;
+		}
 }
+
