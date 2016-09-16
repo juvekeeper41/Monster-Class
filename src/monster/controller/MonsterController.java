@@ -39,7 +39,7 @@ public class MonsterController
 			System.out.println("What do you want my name to be?");
 			String newName = keyboardInput.nextLine();
 			firstMonster.setName(newName);
-			System.out.println("That's a terrible name");
+			System.out.println("That's a horrible name.");
 		
 		System.out.println(firstMonster);
 		}
@@ -48,7 +48,29 @@ public class MonsterController
 			System.out.println("Fine, don't change my name!");
 		}
 		
+		System.out.println("What's your favorite dish?");
+		String answer1 = keyboardInput.nextLine();
+		if (answer1.equalsIgnoreCase("human"))
+		{
+			System.out.println("That's my favorite too!");
+		}
+		else 
+		{
+			System.out.println("I only like and eat human, everything else is disgusting.");
+		}
 		
+		System.out.println("Would you care to change how many eyes I have?");
+		String answer2 = keyboardInput.nextLine();
+		
+		if(answer2.equalsIgnoreCase("yes"))
+		{
+			System.out.println("I'll change the amount myself, if you don't mind.");
+			keyboardInput.nextLine();
+			firstMonster.setEyeCount(6);
+			
+			
+			
+		}
 	}
 }
 
