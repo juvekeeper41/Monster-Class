@@ -1,6 +1,7 @@
 package monster.controller;
 
 import monster.model.MarshmallowMonster;
+
 import java.util.Scanner;
 
 public class MonsterController
@@ -22,6 +23,7 @@ public class MonsterController
 	 * hasBellyButton = false
 	 * noseCount = 1
 	 */
+	@SuppressWarnings("null")
 	public void start()
 	{
 		System.out.println("Here is my monster: " + firstMonster + ".");
@@ -67,7 +69,23 @@ public class MonsterController
 			System.out.println("I'll change the amount myself, if you don't mind.");
 			keyboardInput.nextLine();
 			firstMonster.setEyeCount(6);
+			System.out.println("I now have six eyes!");
 			
+		}
+		else
+		{
+			System.out.println("You're actually happy with the two eyes I have?");
+			String answer3 = keyboardInput.nextLine();
+			if (answer3.equalsIgnoreCase("yes"))
+			{
+				System.out.println("You make me sick.");
+			
+			
+		}
+		else
+		{
+			System.out.println("Then why didn't you change the amount?");
+		}
 			
 			
 		}
