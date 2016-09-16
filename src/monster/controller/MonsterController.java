@@ -39,6 +39,7 @@ public class MonsterController
 			System.out.println("What do you want my name to be?");
 			String newName = keyboardInput.nextLine();
 			firstMonster.setName(newName);
+			System.out.println("That's a terrible name");
 		
 		System.out.println(firstMonster);
 		}
@@ -46,7 +47,8 @@ public class MonsterController
 		{
 			System.out.println("Fine, don't change my name!");
 		}
-		System.out.println(firstMonster);
+		
+		
 	}
 }
 
