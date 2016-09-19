@@ -23,7 +23,7 @@ public class MonsterController
 	 * hasBellyButton = false
 	 * noseCount = 1
 	 */
-	@SuppressWarnings("null")
+	
 	public void start()
 	{
 		System.out.println("Here is my monster: " + firstMonster + ".");
@@ -66,7 +66,7 @@ public class MonsterController
 		
 		if(answer2.equalsIgnoreCase("yes"))
 		{
-			System.out.println("I'll change the amount myself, if you don't mind.");
+			System.out.println("I'll change the amount myself, if you don't mind. Guess how many I have!");
 			keyboardInput.nextLine();
 			firstMonster.setEyeCount(6);
 			System.out.println("I now have six eyes!");
@@ -85,6 +85,8 @@ public class MonsterController
 		else
 		{
 			System.out.println("Then why didn't you change the amount?");
+			keyboardInput.nextLine();
+			System.out.println("I'm leaving, bye!");
 		}
 			
 			
