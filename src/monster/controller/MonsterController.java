@@ -88,9 +88,54 @@ public class MonsterController
 			keyboardInput.nextLine();
 			System.out.println("I'm leaving, bye!");
 		}
+			{
+			System.out.println("*Anubis ran away.*");
+			}
+			System.out.println("Would you like to call for him to come back?");
+			String answer4 = keyboardInput.nextLine();
+			if (answer4.equalsIgnoreCase("yes"))
+			{
+				System.out.println("Anubis, come back!");
+				System.out.println("*Anubis steps outside of the bushes.*");
+			}
+			else
+			{
+				System.out.println("*You walk away discouraged.*");
+
+			monsterDecisions();
 			
+			loopMonster();
+			}
 			
+			private void monsterDecisions()
+			{
+				
+			}
 		}
 	}
+		
+		private void loopMonster()
+		{
+		//define a variable for condition/test	
+		int numberOfTimes = 0;
+		while(numberOfTimes < 1000)
+			{
+				//Code to do
+				System.out.print("First monster words" + firstMonster);
+				
+				//Code to change variable for condition
+				numberOfTimes++;
+		}
+		
+		for(int count = 0; count < 100; count++)
+		{
+			System.out.println("First monster words " + firstMonster);
+			}
+		
+		for(int count = 0; count < 50; count ++)
+		{
+			System.out.println("I can say my creator's name: " + "Jake");
+			}
+		}
 }
 
