@@ -101,19 +101,16 @@ public class MonsterController
 			else
 			{
 				System.out.println("*You walk away discouraged.*");
-
-			monsterDecisions();
 			
 			loopMonster();
 			}
 			
-			private void monsterDecisions()
 			{
 				
 			}
 		}
 	}
-		
+
 		private void loopMonster()
 		{
 		//define a variable for condition/test	
@@ -134,8 +131,8 @@ public class MonsterController
 		
 		for(int count = 0; count < 50; count ++)
 		{
-			System.out.println("I can say my creator's name: " + "Jake");
+			System.out.println("I can say my creator's name: Jake");
 			}
 		}
-}
+} 
 
